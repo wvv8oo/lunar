@@ -1,0 +1,24 @@
+{
+	"author": "Conis <conis.yi@gmail.com> (http://iove.net/)",
+	"name": "chinese-lunar",
+	"description": "农历与公历相互转换的库，支持农历日期的计算，支持1900至2100年",
+	"keywords": ["chinese lunar", "lunar", "农历", "旧历"],
+	"version": "0.1.0",
+	"repository":   {
+		"type": "git",
+		"url": "git://github.com/conis/chinese-lunar.git"
+	},
+	"main": "./lib/chinese-lunar.js",
+	"engines": {
+		"node": "*"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"mocha" : "*",
+		"expect.js" : "*"
+	},
+	"scripts": {
+		"test" : "make test"
+	}
+}
