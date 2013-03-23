@@ -4,7 +4,7 @@
 
 ## Install
 
-1. 在node.js中用npm安装 `npm install mail-queuer`
+1. 在node.js中用npm安装 `npm install chinese-lunar`
 2. 在浏览器中加载方式，`<script src="../lib/chinese-lunar.js></script>`
 3. chinese-lunar支持`require`
 
