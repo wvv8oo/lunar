@@ -19,11 +19,12 @@
 `window.chineseLunar`是一个全局函数，直接调用就可以，例如`chineseLunar.solarToLunar(new Date());`
 
 对于`require`，可以用如下方式使用：
-
+```js
     require(["chinese-lunar"], function(chineseLunar){
       console.log(chineseLunar.solarToLunar(new Date());
       //more...
     });
+```
 
 ## Methods
 
