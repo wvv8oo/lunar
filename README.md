@@ -1,6 +1,6 @@
 # chinese-lunar
 
-农历与公历相互转换的类库，支持农历的之间的加减运算，并提供生肖、干支等，支持1900-2100年。
+农历与公历相互转换的模块，支持农历的之间的加减运算，并提供生肖、干支等，支持1900-2100年。
 
 ## Install
 
@@ -40,6 +40,7 @@
 
 `lunarToSolar(lunar); // => solar`
 `lunarToSolar(year, month, day[,leap]); //=> solar`
+
 将农历转换为公历，leap为可选参数
 
 ### format
