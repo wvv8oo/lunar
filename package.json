@@ -20,5 +20,8 @@
 	},
 	"scripts": {
 		"test" : "make test"
+	},
+	"spm": {
+		"main": "lib/chinese-lunar.js"
 	}
 }

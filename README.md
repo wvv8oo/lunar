@@ -1,4 +1,4 @@
-# chinese-lunar
+# chinese-lunar [![spm package](http://spmjs.io/badge/chinese-lunar)](http://spmjs.io/package/chinese-lunar)
 
 农历与公历相互转换的模块，支持农历之间的加减运算，并提供生肖、干支等，支持1900-2100年。
 
@@ -7,6 +7,7 @@
 1. 在node.js中用npm安装 `npm install chinese-lunar`
 2. 在浏览器中加载方式，`<script src="../lib/chinese-lunar.js></script>`
 3. chinese-lunar支持`require`
+4. 用spm安装 `spm install chinese-lunar`
 
 ## Usage
 
