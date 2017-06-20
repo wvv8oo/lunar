@@ -11,6 +11,12 @@ describe('chinese-lunar', function(){
 		leapMonth: 4
 	};
 
+	it('.dateDiff(lunar1, lunar2, expr)', function(){
+        var lunar1 = chineseLunar.solarToLunar(SOLAR_DATE);
+        var lunar2 = chineseLunar.solarToLunar(new Date(1983, 3, 1));
+		var duration = chineseLunar.dateDiff(lunar1, lunar2, 'd');
+        expect(duration).to.eql(62);
+	});
 
 	it('.solarToLunar(Date)，公历转农历', function(){
 		var lunar = chineseLunar.solarToLunar(SOLAR_DATE);
