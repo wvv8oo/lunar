@@ -116,12 +116,8 @@
 
   make test
 
-## Credits
-
-  - [Conis Yi](http://github.com/conis)
 
 ## License
 
 [The MIT License](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2012-2013 Conis Yi <[http://iove.net/](http://iove.net/)>
